@@ -2,7 +2,7 @@ CC = g++
 EXE = main
 
 all: main.cpp
-	$(CC) main.cpp -o $(EXE)
+	$(CC) -lncurses main.cpp -o $(EXE)
 	
 run: 
 	./$(EXE)
